@@ -25,11 +25,6 @@ namespace Occon.Auction.Server.Api.TimerFeatures
         public void Execute(object stateInfo)
         {
             _action();
-
-            //if ((DateTime.Now - TimerStarted).Seconds > 60)
-            //{
-            //    _timer.Dispose();
-            //}
         }
     }
 }

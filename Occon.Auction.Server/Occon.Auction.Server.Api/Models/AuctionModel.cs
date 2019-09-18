@@ -7,6 +7,7 @@ namespace Occon.Auction.Server.Api.Models
 {
     public class AuctionModel
     {
+        public Guid Key { get; set; }
         public DateTime EndTime { get; set; }
         public string Deadline { get; set; }
         public List<Bidder> Bidders { get; set; }

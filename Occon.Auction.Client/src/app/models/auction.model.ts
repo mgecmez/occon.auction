@@ -6,5 +6,6 @@ export interface AuctionModel{
     bidders: BidderModel[],
     highestBidder: string,
     highestBid: number,
-    balanceTime: string
+    balanceTime: string,
+    key: string
 }

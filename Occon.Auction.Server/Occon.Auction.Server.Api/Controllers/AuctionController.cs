@@ -24,11 +24,10 @@ namespace Occon.Auction.Server.Api.Controllers
 
         public IActionResult Get()
         {
-            //_hub.Clients.All.SendAsync("TransferAuctionData", DataManager.GetData());
             var timerManager = new TimerManager(() =>
-                _hub.Clients.All.SendAsync("TransferAuctionData", DataManager.GetData()));
+                _hub.Clients.All.SendAsync("TransferAuctionData", DataManager.GetData(false)));
 
-            return Ok(DataManager.GetData());
+            return Ok(DataManager.GetData(false));
         }
     }
 }

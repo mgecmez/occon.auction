@@ -14,5 +14,11 @@ namespace Occon.Auction.Server.Api.HubConfig
             var data = DataManager.SetData(name, price);
             await Clients.All.SendAsync("SendPlaceBid", data);
         }
+
+        public async Task RestoreData()
+        {
+            var data = DataManager.GetData(true);
+            await Clients.All.SendAsync("RestoreData", data);
+        }
     }
 }

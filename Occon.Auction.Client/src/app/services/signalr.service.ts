@@ -45,4 +45,15 @@ export class SignalRService {
             this.auctionData = data;
         })
     }
+
+    public restoreData = () => {
+        this.hubConnection.invoke("RestoreData")
+        .catch(err => console.error(err));
+    }
+
+    public addRestoreDataListener = () => {
+        this.hubConnection.on("RestoreData", (data) => {
+            this.auctionData = data;
+        })
+    }
 }
