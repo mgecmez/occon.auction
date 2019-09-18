@@ -1,0 +1,73 @@
+<div class="card-deck mb-3 text-center">
+    <ng-container *ngIf='signalRService.auctionData'>
+        <div class="card mb-4 shadow-sm" *ngFor='let data of signalRService.auctionData.bidders'>
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">{{data.Name}}</h4>
+            </div>
+            <div class="card-body">
+                <input type="text" class="form-control" value={{data.Price}} />
+                <br>
+                <button type="button" class="btn btn-lg btn-block btn-outline-primary">Place bid</button>
+            </div>
+        </div>
+    </ng-container>
+    
+    <!-- <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+        <h4 class="my-0 font-weight-normal">user1</h4>
+        </div>
+        <div class="card-body">
+            <input type="text" class="form-control" />
+            <br>
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Place bid</button>
+        </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+        <h4 class="my-0 font-weight-normal">user2</h4>
+        </div>
+        <div class="card-body">
+            <input type="text" class="form-control" />
+            <br>
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Place bid</button>
+        </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+        <h4 class="my-0 font-weight-normal">user3</h4>
+        </div>
+        <div class="card-body">
+            <input type="text" class="form-control" />
+            <br>
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Place bid</button>
+        </div>
+    </div> -->
+</div>
+
+<div class="card-deck mb-3">
+    <div class="card mb-4 shadow-sm">
+        <div class="row">
+            <div class="col-md-4 offset-md-2">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Current highest bid:</li>
+                    <li class="list-group-item">Current highest bidder:</li>
+                    <li class="list-group-item">Deadline:</li>
+                    <li class="list-group-item">Balance time:</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">xxxxx</li>
+                    <li class="list-group-item">xxxxx</li>
+                    <li class="list-group-item">xxxxx</li>
+                    <li class="list-group-item">xxxxx</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" style="float: right!important;">
+            <div class="col-md-2" >
+                <button type="button" class="btn btn-lg btn-block btn-outline-primary">Place bid</button>
+            </div>
+        </div>
+    </div>
+</div>

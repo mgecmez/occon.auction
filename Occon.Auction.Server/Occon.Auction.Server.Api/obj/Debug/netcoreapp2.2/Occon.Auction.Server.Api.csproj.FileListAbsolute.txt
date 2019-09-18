@@ -1,0 +1,14 @@
+C:\Users\melih.gecmez\source\repos\Occon.Auction\Occon.Auction.Server\Occon.Auction.Server.Api\bin\Debug\netcoreapp2.2\Occon.Auction.Server.Api.deps.json
+C:\Users\melih.gecmez\source\repos\Occon.Auction\Occon.Auction.Server\Occon.Auction.Server.Api\bin\Debug\netcoreapp2.2\Occon.Auction.Server.Api.runtimeconfig.json
+C:\Users\melih.gecmez\source\repos\Occon.Auction\Occon.Auction.Server\Occon.Auction.Server.Api\bin\Debug\netcoreapp2.2\Occon.Auction.Server.Api.runtimeconfig.dev.json
+C:\Users\melih.gecmez\source\repos\Occon.Auction\Occon.Auction.Server\Occon.Auction.Server.Api\bin\Debug\netcoreapp2.2\Occon.Auction.Server.Api.dll
+C:\Users\melih.gecmez\source\repos\Occon.Auction\Occon.Auction.Server\Occon.Auction.Server.Api\obj\Debug\netcoreapp2.2\Occon.Auction.Server.Api.csprojAssemblyReference.cache
+C:\Users\melih.gecmez\source\repos\Occon.Auction\Occon.Auction.Server\Occon.Auction.Server.Api\obj\Debug\netcoreapp2.2\Occon.Auction.Server.Api.csproj.CoreCompileInputs.cache
+C:\Users\melih.gecmez\source\repos\Occon.Auction\Occon.Auction.Server\Occon.Auction.Server.Api\obj\Debug\netcoreapp2.2\Occon.Auction.Server.Api.RazorAssemblyInfo.cache
+C:\Users\melih.gecmez\source\repos\Occon.Auction\Occon.Auction.Server\Occon.Auction.Server.Api\obj\Debug\netcoreapp2.2\Occon.Auction.Server.Api.RazorAssemblyInfo.cs
+C:\Users\melih.gecmez\source\repos\Occon.Auction\Occon.Auction.Server\Occon.Auction.Server.Api\obj\Debug\netcoreapp2.2\Occon.Auction.Server.Api.AssemblyInfoInputs.cache
+C:\Users\melih.gecmez\source\repos\Occon.Auction\Occon.Auction.Server\Occon.Auction.Server.Api\obj\Debug\netcoreapp2.2\Occon.Auction.Server.Api.AssemblyInfo.cs
+C:\Users\melih.gecmez\source\repos\Occon.Auction\Occon.Auction.Server\Occon.Auction.Server.Api\obj\Debug\netcoreapp2.2\Occon.Auction.Server.Api.RazorTargetAssemblyInfo.cache
+C:\Users\melih.gecmez\source\repos\Occon.Auction\Occon.Auction.Server\Occon.Auction.Server.Api\bin\Debug\netcoreapp2.2\Occon.Auction.Server.Api.pdb
+C:\Users\melih.gecmez\source\repos\Occon.Auction\Occon.Auction.Server\Occon.Auction.Server.Api\obj\Debug\netcoreapp2.2\Occon.Auction.Server.Api.dll
+C:\Users\melih.gecmez\source\repos\Occon.Auction\Occon.Auction.Server\Occon.Auction.Server.Api\obj\Debug\netcoreapp2.2\Occon.Auction.Server.Api.pdb
